@@ -142,4 +142,8 @@ nav ul li a:hover {
     .content .text p {
         font-size: 14px;
     }
+    body::after{
+    clip-path: circle(50% at bottom)
+}  
+  
 }
