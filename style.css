@@ -119,31 +119,40 @@ nav ul li a:hover {
 
 @media (max-width: 950px) {
     .content, nav {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .content .image,
     .content .text {
         width: 90%;
     }
-    nav .logo, .content .text h2 {
+
+    nav .logo, 
+    .content .text h2 {
         font-size: 26px;
     }
+
     nav ul li a {
         font-size: 18px;
     }
+    
     nav ul li {
         padding-top: 16px;
     }
+
     .content .text {
         padding-bottom: 50px;
     }
+
     .content .text p {
         font-size: 14px;
     }
-    body::after{
-    clip-path: circle(50% at bottom)
-}  
-  
+
+    body::after {
+        clip-path: circle(50% at bottom);
+    }  
 }
+
